@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import { useAppDispatch, useAppSelector } from "../../store/hooks"
-import { changePage, getFilms } from "../../store/slices/filmsSlice"
+import { changePage, getFilms } from "../../store/Slices/filmsslice"
 import { useNavigate } from "react-router-dom"
 import './index.css'
 import FilmCard from "../../components/FilmCard/FilmCard"

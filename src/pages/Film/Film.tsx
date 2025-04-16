@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { useAppDispatch, useAppSelector } from "../../store/hooks";
-import { getOneFilm } from "../../store/slices/filmsSlice";
+import { getOneFilm } from "../../store/Slices/filmsslice";
 import "./Film.css";
 
 const Film = () => {

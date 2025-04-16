@@ -1,10 +1,10 @@
 import { useEffect, ChangeEvent, useState } from "react";
 import "./Header.css";
-import { getGenres } from "../../store/slices/genresSlice";
+import { getGenres } from "../../store/Slices/genresslice";
 import { useAppDispatch, useAppSelector } from "../../store/hooks";
 import BTN from "../UI/BTN";
-import { changeLanguage } from "../../store/slices/globalSlice";
-import { changeStateText, searchFilms } from "../../store/slices/filmsSlice";
+import { changeLanguage } from "../../store/Slices/globalslice";
+import { changeStateText, searchFilms } from "../../store/Slices/filmsslice";
 import { NavLink } from "react-router-dom";
 
 const Header = () => {
